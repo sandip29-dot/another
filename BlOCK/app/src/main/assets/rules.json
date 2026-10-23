@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "instagram_reels",
+      "appPackage": "com.instagram.android",
+      "appName": "Instagram",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "viewId",
+          "pattern": "clips_viewer_view_pager"
+        },
+        {
+          "type": "viewId",
+          "pattern": "clips_tab"
+        },
+        {
+          "type": "className",
+          "pattern": "androidx.viewpager2.widget.ViewPager2"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*reel.*"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*clips.*"
+        }
+      ],
+      "minSignals": 2
+    },
+    {
+      "id": "youtube_shorts",
+      "appPackage": "com.google.android.youtube",
+      "appName": "YouTube Shorts",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "viewId",
+          "pattern": "reel_recycler"
+        },
+        {
+          "type": "viewId",
+          "pattern": "reel_player_page_container"
+        },
+        {
+          "type": "viewId",
+          "pattern": "shorts_player"
+        },
+        {
+          "type": "className",
+          "pattern": "androidx.viewpager2.widget.ViewPager2"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*shorts.*"
+        },
+        {
+          "type": "viewId",
+          "pattern": "reel_watch_player"
+        }
+      ],
+      "minSignals": 2
+    },
+    {
+      "id": "facebook_reels",
+      "appPackage": "com.facebook.katana",
+      "appName": "Facebook Reels",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*reel.*"
+        },
+        {
+          "type": "className",
+          "pattern": "androidx.viewpager2.widget.ViewPager2"
+        },
+        {
+          "type": "viewId",
+          "pattern": "reels_screen_fragment_container"
+        },
+        {
+          "type": "viewId",
+          "pattern": "video_player_surface_view"
+        }
+      ],
+      "minSignals": 2
+    },
+    {
+      "id": "tiktok",
+      "appPackage": "com.zhiliaoapp.musically",
+      "appName": "TikTok",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "viewId",
+          "pattern": "view_pager"
+        },
+        {
+          "type": "className",
+          "pattern": "androidx.viewpager2.widget.ViewPager2"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*swipe up.*"
+        },
+        {
+          "type": "viewId",
+          "pattern": "rl_video"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*for you.*"
+        }
+      ],
+      "minSignals": 2
+    },
+    {
+      "id": "tiktok_lite",
+      "appPackage": "com.zhiliaoapp.musically.go",
+      "appName": "TikTok Lite",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "viewId",
+          "pattern": "view_pager"
+        },
+        {
+          "type": "className",
+          "pattern": "androidx.viewpager2.widget.ViewPager2"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*swipe up.*"
+        }
+      ],
+      "minSignals": 2
+    },
+    {
+      "id": "snapchat_spotlight",
+      "appPackage": "com.snapchat.android",
+      "appName": "Snapchat Spotlight",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*spotlight.*"
+        },
+        {
+          "type": "className",
+          "pattern": "androidx.viewpager2.widget.ViewPager2"
+        },
+        {
+          "type": "viewId",
+          "pattern": "spotlight_feed"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*swipe up.*"
+        }
+      ],
+      "minSignals": 2
+    },
+    {
+      "id": "browser_shorts_url",
+      "appPackage": "*",
+      "appName": "Browser (Shorts URLs)",
+      "enabled": true,
+      "signals": [
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*(/shorts/|/reels/).*"
+        },
+        {
+          "type": "viewId",
+          "pattern": "url_bar"
+        },
+        {
+          "type": "viewId",
+          "pattern": "url_bar_title"
+        },
+        {
+          "type": "contentDescription",
+          "pattern": "(?i).*(youtube\\.com/shorts|instagram\\.com/reels).*"
+        }
+      ],
+      "minSignals": 1,
+      "browserRule": true,
+      "urlPatterns": [
+        "(?i).*/shorts/.*",
+        "(?i).*/reels/.*"
+      ]
+    }
+  ]
+}

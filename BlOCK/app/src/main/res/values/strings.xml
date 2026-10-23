@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlOCK</string>
+    <string name="app_tagline">Brick by brick.</string>
+
+    <!-- Bouncer lines -->
+    <string name="bouncer_blocked">BLOCKED</string>
+    <string name="bouncer_not_tonight">Not tonight.</string>
+    <string name="bouncer_nope">Nope.</string>
+    <string name="bouncer_future_you">Future you says no.</string>
+    <string name="bouncer_nice_try">Nice try.</string>
+    <string name="bouncer_turn_around">Turn around.</string>
+    <string name="bouncer_door_closed">Door\'s closed.</string>
+    <string name="bouncer_maybe_next_time">Maybe next time. Actually, no.</string>
+    <string name="bouncer_not_happening">Not happening.</string>
+    <string name="bouncer_you_know_better">You know better.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_shield">Shield</string>
+    <string name="nav_lock">Lock</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_today">Today</string>
+    <string name="dashboard_blocked_count">blocks</string>
+    <string name="dashboard_streak">day streak</string>
+    <string name="dashboard_time_reclaimed">Time reclaimed</string>
+    <string name="dashboard_tower_title">Your Tower</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Stats</string>
+    <string name="stats_heatmap_title">Block Calendar</string>
+    <string name="stats_danger_hours">Danger Hours</string>
+    <string name="stats_per_app">Per App</string>
+    <string name="stats_total_blocks">Total blocks</string>
+
+    <!-- Shield Settings -->
+    <string name="shield_title">Shield</string>
+    <string name="shield_active">Shield is UP</string>
+    <string name="shield_inactive">Shield is DOWN</string>
+    <string name="shield_enable_accessibility">Enable Accessibility Service</string>
+    <string name="shield_escape_target">Escape target</string>
+    <string name="shield_escape_home">Phone home screen</string>
+    <string name="shield_escape_app_home">App\'s own Home tab</string>
+    <string name="shield_rules">Detection Rules</string>
+    <string name="shield_learn_mode">Learn Mode</string>
+    <string name="shield_learn_mode_desc">Capture current screen to create a new rule</string>
+
+    <!-- Commitment Lock -->
+    <string name="lock_title">Commitment Lock</string>
+    <string name="lock_duration">Lock duration</string>
+    <string name="lock_1_day">1 day</string>
+    <string name="lock_7_days">7 days</string>
+    <string name="lock_30_days">30 days</string>
+    <string name="lock_note_hint">Write a note to future you…</string>
+    <string name="lock_note_label">Note from past you</string>
+    <string name="lock_activate">Lock it in</string>
+    <string name="lock_active_until">Locked until %1$s</string>
+    <string name="lock_disable_wait">Wait %1$d minutes remaining</string>
+    <string name="lock_disable_type">Type this sentence to confirm:</string>
+    <string name="lock_disable_sentence">I am choosing to remove my protection against short-form video scrolling and I accept the consequences of this decision.</string>
+    <string name="lock_disable_confirm">Confirm disable</string>
+
+    <!-- Learn Mode -->
+    <string name="learn_title">Learn Mode</string>
+    <string name="learn_instructions">Open the short-video screen you want to block, then tap Capture.</string>
+    <string name="learn_capture">Capture Screen</string>
+    <string name="learn_generating">Analyzing node tree…</string>
+    <string name="learn_save_rule">Save Rule</string>
+    <string name="learn_app_name_hint">App name</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Hey.</string>
+    <string name="onboarding_welcome_body">BlOCK stops you from doom-scrolling short videos.\nEvery. Single. Time.</string>
+    <string name="onboarding_how_title">How it works</string>
+    <string name="onboarding_how_body">When a reel or short appears, BlOCK kicks you out instantly. Then drops a block on your tower.</string>
+    <string name="onboarding_privacy_title">Privacy promise</string>
+    <string name="onboarding_privacy_body">Zero data leaves your phone. No analytics. No network. No accounts. Everything stays right here.</string>
+    <string name="onboarding_accessibility_title">One thing I need</string>
+    <string name="onboarding_accessibility_body">BlOCK uses Android\'s Accessibility Service to detect short videos. It never reads your messages, passwords, or anything else.</string>
+    <string name="onboarding_battery_title">Keep me alive</string>
+    <string name="onboarding_battery_body">Some phone manufacturers kill background apps aggressively. Exempt BlOCK from battery optimization so it stays on guard.</string>
+    <string name="onboarding_restricted_title">Android 13+ sideload note</string>
+    <string name="onboarding_restricted_body">If you installed via APK, go to Settings → Apps → BlOCK → three-dot menu → Allow restricted settings.</string>
+    <string name="onboarding_done_title">Brick by brick.</string>
+    <string name="onboarding_done_body">You\'re set. Every scroll you don\'t take builds your tower.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_enable">Enable</string>
+    <string name="onboarding_done">Let\'s go</string>
+
+    <!-- Watchdog -->
+    <string name="watchdog_channel_name">Shield Monitor</string>
+    <string name="watchdog_channel_desc">Alerts when BlOCK\'s shield goes down</string>
+    <string name="watchdog_title">⚠️ Shield is DOWN</string>
+    <string name="watchdog_body">BlOCK\'s protection was disabled. Tap to re-enable.</string>
+
+    <!-- Time reclaimed equivalents -->
+    <string name="time_chapters">chapters read</string>
+    <string name="time_lectures">lectures watched</string>
+    <string name="time_walks">walks around the block</string>
+    <string name="time_songs">songs listened to</string>
+    <string name="time_pages">pages read</string>
+    <string name="time_pushups">push-ups done</string>
+
+    <!-- Widget -->
+    <string name="widget_name">BlOCK Tower</string>
+    <string name="widget_description">Shows your tower height and today\'s block count</string>
+
+    <!-- Device Admin -->
+    <string name="admin_description">Enabling device admin makes BlOCK harder to uninstall accidentally. You can always disable this in Settings → Security → Device admin apps.</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_service_description">BlOCK monitors screen content to detect short-form video feeds (Reels, Shorts, TikTok). It only looks for specific UI patterns and never reads your messages, passwords, or personal content.</string>
+    <string name="cd_tower">Your block tower with %1$d blocks</string>
+    <string name="cd_block_count">%1$d shorts blocked today</string>
+    <string name="cd_streak">%1$d day streak</string>
+    <string name="cd_shield_status">Shield is %1$s</string>
+</resources>

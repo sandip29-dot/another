@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BlOCK Neo-Brutalist Palette -->
+    <color name="black">#FF000000</color>
+    <color name="off_white">#FFF5F0E8</color>
+    <color name="electric_lime">#FFCCFF00</color>
+    <color name="electric_lime_dark">#FF99CC00</color>
+    <color name="danger_red">#FFFF3333</color>
+    <color name="surface_dark">#FF1A1A1A</color>
+    <color name="surface_dark_elevated">#FF2A2A2A</color>
+    <color name="text_muted">#FF888888</color>
+    <color name="streak_gold">#FFFFD700</color>
+    <color name="crack_orange">#FFFF6600</color>
+</resources>

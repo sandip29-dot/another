@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin>
+    <uses-policies>
+        <!-- Only wipe-data is useful for uninstall protection, but we don't actually use it.
+             We declare force-lock as a minimal policy to register as device admin. -->
+        <force-lock />
+    </uses-policies>
+</device-admin>
